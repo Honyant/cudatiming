@@ -1,0 +1,25 @@
+{
+  "name": "cudatiming",
+  "version": "1.0.0",
+  "description": "CUDA Matrix Multiplication Benchmarking App",
+  "main": "index.js",
+  "scripts": {
+    "start:backend": "cd backend && node index.js",
+    "start:frontend": "cd frontend && npm start",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cuda",
+    "benchmark",
+    "matmul",
+    "matrix",
+    "multiplication"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
