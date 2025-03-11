@@ -1,0 +1,44 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+
+# Node modules (both backend and frontend)
+node_modules/
+*/node_modules/
+
+# Environment variables
+.env
+.env.*  # If you have multiple env files like .env.production
+
+# Database files
+database.sqlite
+*.sqlite3
+
+# Build / Dist output (if any)
+build/
+dist/
+out/
+
+# Cache directories
+.cache/
+*.cache
+
+# C/C++/CUDA object and binary files
+*.o
+*.out
+*.exe
+*.so
+*.dll
+*.pdb
+
+# package-lock.json
+
+# Optional: Ignore any editor or IDE settings (uncomment as needed)
+# .vscode/
+# .idea/
