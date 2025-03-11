@@ -3,7 +3,9 @@
 A web application for testing, benchmarking, and visualizing CUDA matrix multiplication kernels with CPU verification.
 
 **Demo:**
-![demo](demo.mp4)
+
+https://github.com/user-attachments/assets/758c730c-c04a-4706-9d93-f4c7db4ffd3a
+
 
 ## Features
 
