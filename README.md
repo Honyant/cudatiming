@@ -2,6 +2,9 @@
 
 A web application for testing, benchmarking, and visualizing CUDA matrix multiplication kernels with CPU verification.
 
+**Demo:**
+[demo.mp4](demo.mp4)
+
 ## Features
 
 - Edit CUDA code directly in the browser
